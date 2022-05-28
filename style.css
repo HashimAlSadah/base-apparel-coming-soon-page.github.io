@@ -69,19 +69,18 @@ main{
 }
 
 .wraper{
-   display: flex;
-   flex-direction: column;
-   margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 350px;
 }
 
 
 
 .email{
-    max-width: 360px;
     position: relative;
     border: 1px solid var(--light-red);
     border-radius: 25px;
-    margin-right: 0.5em;
+    margin: 0 auto;
     transition: all 0.1s ease;
 }
 
@@ -130,10 +129,10 @@ main{
 }
 
 .error-message{
-    margin-left: 2em;
     margin-top: 0.75em;
     font-size: 0.8rem;
     transition: all 0.5s ease;
+    margin-left: 1em;
 }
 
 .error-message p{
@@ -190,7 +189,8 @@ main{
 
     .wraper{
         display: block;
-        width: fit-content;
+        width: 100%;
+        margin: 0;
     }
 
     .intro{
@@ -208,10 +208,6 @@ main{
     #send-btn:hover{
         background-image: none;
         transform: translate(40%, 0) scale(1.1, 1.2);
-    }
-
-    .error-message{
-        margin-left: 0.5em;
     }
 
     
