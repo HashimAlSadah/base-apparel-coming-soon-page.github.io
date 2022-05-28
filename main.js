@@ -6,7 +6,7 @@ const emailInput = document.querySelector(".email input");
 const emailRegXep = new RegExp("(^[a-z0-9])([a-z0-9\!\#\$\%\&\'\*\+\-\/\=\?\^\_\`\{\|\]\*]*)@[a-z0-9]+[\.]{1}.+[a-z0-9]+$", "i");
 
 //------prepare page--------
-// errorMessage.style.opacity = "0";
+errorMessage.style.opacity = "0";
 
 //-------add EventListeners------
 sendBtn.addEventListener("click", ()=> {
